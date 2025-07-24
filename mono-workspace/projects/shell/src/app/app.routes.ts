@@ -4,5 +4,6 @@ import { loadRemoteModule } from '@angular-architects/native-federation';
 
 export const routes: Routes = [
   {path: '', component: Home},
-  {path: 'todo', loadComponent: () => loadRemoteModule('todo', './Component').then((m) => m.App)}
+  {path: 'todo', loadComponent: () => loadRemoteModule('todo', './Component').then((m) => m.App)},
+  {path: 'user', loadComponent: () => loadRemoteModule('user', './Component').then((m) => m.App)}
 ];

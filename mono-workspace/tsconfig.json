@@ -35,6 +35,12 @@
     },
     {
       "path": "./projects/todo/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/user/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/user/tsconfig.spec.json"
     }
   ]
 }
